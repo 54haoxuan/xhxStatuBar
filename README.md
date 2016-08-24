@@ -13,6 +13,9 @@
 ''''objc
 [XHXStatusBarHUD showLoading:@"正在加载中..."];
 ''''
+## 显示普通信息
+''''objc
+[XHXStatusBarHUD showMessage:@"没有什么事!!!!" image:nil];
 ## 隐藏信息
 ''''objc
 [XHXStatusBarHUD hide];
